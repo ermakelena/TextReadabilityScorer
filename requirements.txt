@@ -1,0 +1,6 @@
+nltk>=3.8.0
+pymorphy2>=0.9.1
+pymorphy2-dicts-ru>=2.4.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+click>=8.0.0
