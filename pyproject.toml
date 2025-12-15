@@ -1,0 +1,24 @@
+[project]
+name = "readability-scorer"
+version = "0.1.0"
+description = "Анализатор читаемости текста на основе лингвистических метрик."
+authors = [
+    {name = "elena",email = "eiermak@edu.hse.ru"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+
+[dependency-groups]
+dev = [
+    "black (>=23.1.0,<24.0.0)",
+    "flake8 (>=6.0.0,<7.0.0)",
+    "mypy (>=1.5.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
