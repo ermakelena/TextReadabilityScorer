@@ -24,3 +24,22 @@
     - **simplifier.py** - генерирует советы по улучшению текста
 - **tests**
 
+## Установка 
+
+Склонируйте репозиторий:
+> git clone https://github.com/ermakelena/TextReadabilityScorer
+> cd text_scorer
+
+Установите зависимости через Poetry:
+> poetry install
+
+Создайте пакет
+>poetry build
+
+Установите пакет
+> poetry install
+
+Запустите программу
+>poetry run python TextReadabilityScorer/src/scorer/main.py
+
+
